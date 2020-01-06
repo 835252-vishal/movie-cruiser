@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Edit Movie</title>
+<link rel="shortcut icon" href="images/logo.png" />
+<link rel="stylesheet" type="text/css" href="styles/style.css" />
+<script src="js/script.js">
+    
+</script>
+</head>
+<body>
+    <header>
+        <h2 class="head">
+            <span>Movie Cruiser</span>
+        </h2>
+        <img class="logo" src="images\logo.png" alt="logos" width=50 height=50 />
+        <nav>
+            <a class="nav-movies" href="movie-list-admin.html">Movies</a>
+        </nav>
+    </header>
+    <form action="edit-movie-status.html" name="validation" method="post"
+        onsubmit="return validate()">
+        <table cellspacing="7">
+            <tr>
+                <th colspan="4"><h1>Edit Movie</h1></th>
+            </tr>
+            <tr>
+                <td colspan="4"><b><label for="name">Title</label></b></td>
+            </tr>
+            <tr>
+                <td colspan="4"><input id="name" type="text" name="title" size="75"
+                    autocomplete="off" /></td>
+                <span id="movie-name"></span>
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+            </tr>
+            <tr>
+                <td><b><label for="price">Gross ($)</label></b></td>
+                <td><b><label for="active1">Active</label></b></td>
+                <td><b><label for="date">Date of Launch</label></b></td>
+                <td><b><label>Genre</label></b></td>
+            </tr>
+            <tr>
+                <td><input id="price" type="text" name="boxOffice" autocomplete="off" /><span
+                    id="movie-price"></span></td>
+                <td><input id="active1" type="radio" name="active" value="yes" />Yes <input
+                    id="active1" type="radio" name="active" value="no" />No</td>
+                <td><input id="date" type="date" name="dateOfLaunch" size="15" /><span
+                    id="dname"></span></td>
+                <span id="movie-date"></span>
+                <td><select name="genre">
+                        <option value="">select</option>
+                        <option value="science">Science Fiction</option>
+                        <option value="superhero">Superhero</option>
+                        <option value="romance">Romance</option>
+                        <option value="comedy">Comedy</option>
+                        <option value="adventure">Adventure</option>
+                        <option value="thriller">Thriller</option>
+                </select><span id="movie-genre"></span></td>
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><input class="teaser" type="checkbox" value="hasteaser"
+                    name="hasTeaser" /><label class="has"><b>Has Teaser</b></label></td>
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input class="submit" type="submit" name="submit" value="Save"
+                    class="submit" /></td>
+            </tr>
+        </table>
+    </form>
+    <footer>
+        <p>Copyright&nbsp;&copy;&nbsp;2019</p>
+    </footer>
+</body>
+</html>
