@@ -27,9 +27,9 @@ public class FavoriteDaoCollectionImpl implements FavoriteDao {
 
         } else {
             Favorite favorite = new Favorite();
-            List<Movie> listMenu = new ArrayList<Movie>();
-            listMenu.add(movie);
-            favorite.setFavoriteList(listMenu);
+            List<Movie> listMovie = new ArrayList<Movie>();
+            listMovie.add(movie);
+            favorite.setFavoriteList(listMovie);
             userFavorite.put(userId, favorite);
         }
     }
