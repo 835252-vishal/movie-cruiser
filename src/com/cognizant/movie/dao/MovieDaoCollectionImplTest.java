@@ -26,7 +26,7 @@ public class MovieDaoCollectionImplTest {
     public static void testGetMovieListAdmin() {
         System.out.println("Admin View\n");
         List<Movie> menu = movieDao.getMovieListAdmin();
-        System.out.printf("%-15s%-25s%-15s%-15s%-20s%-20s%-15s\n", "MovieId", "Title", "BoxOffice",
+        System.out.printf("%-15s%-25s%-20s%-15s%-20s%-20s%-15s\n", "MovieId", "Title", "BoxOffice",
                 "Active", "Date Of Launch", "Genre", "Has Teaser");
         for (Movie movie : menu) {
             System.out.println(movie);// invoke toString
@@ -36,7 +36,7 @@ public class MovieDaoCollectionImplTest {
     public static void testGetMovieListCustomer() {
         System.out.println("Customer View\n");
         List<Movie> menu = movieDao.getMovieListCustomer();
-        System.out.printf("%-15s%-25s%-15s%-15s%-20s%-20s%-15s\n", "MovieId", "Title", "BoxOffice",
+        System.out.printf("%-15s%-25s%-20s%-15s%-20s%-20s%-15s\n", "MovieId", "Title", "BoxOffice",
                 "Active", "Date Of Launch", "Genre", "Has Teaser");
         for (Movie movie : menu) {
 
@@ -46,7 +46,7 @@ public class MovieDaoCollectionImplTest {
 
     public static void testGetMovie() {
         System.out.println("Get Movie\n");
-        System.out.printf("%-15s%-25s%-15s%-15s%-20s%-20s%-15s\n", "MovieId", "Title", "BoxOffice",
+        System.out.printf("%-15s%-25s%-20s%-15s%-20s%-20s%-15s\n", "MovieId", "Title", "BoxOffice",
                 "Active", "Date Of Launch", "Genre", "Has Teaser");
         Movie movieList = movieDao.getMovieById(2);
         System.out.println(movieList);
