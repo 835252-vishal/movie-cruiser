@@ -1,120 +1,120 @@
 /*header of movie cruiser*/
 header {
-    top: 0%;
-    background-color: #303f80;
-    min-width: 100%;
-    position: fixed;
-    left: 0%;
-    height: 6%;
-    width: 100%;
-    font-family: Calibri;
+	top: 0%;
+	background-color: #303f80;
+	min-width: 100%;
+	position: fixed;
+	left: 0%;
+	height: 6%;
+	width: 100%;
+	font-family: Calibri;
 }
 /*header heading(movie cruiser)/*/
 .head {
-    color: #c7c6c5;
-    margin-left: 2%;
-    position: fixed;
-    margin-top: 0.8%;
-    font-size: 25px;
+	color: #c7c6c5;
+	margin-left: 2%;
+	position: fixed;
+	margin-top: 0.8%;
+	font-size: 25px;
 }
 /*header image*/
 .logo {
-    margin-left: 10%;
-    position: fixed;
+	margin-left: 10%;
+	position: fixed;
 }
 /*navigation positioning*/
 nav {
-    position: fixed;
-    margin-left: 80%;
-    top: 1.5%;
+	position: fixed;
+	margin-left: 80%;
+	top: 1.5%;
 }
 /*navigation movie*/
 .nav-movies {
-    font-size: 20px;
-    color: #f0f1f5;
-    position: fixed;
+	font-size: 20px;
+	color: #f0f1f5;
+	position: fixed;
 }
 /*navigation favorite*/
 .nav-favorite {
-    font-size: 20px;
-    margin-left: 5%;
-    color: #f0f1f5;
-    position: fixed;
+	font-size: 20px;
+	margin-left: 5%;
+	color: #f0f1f5;
+	position: fixed;
 }
 /*table style*/
 table {
-    top: 20%;
-    position: fixed;
-    margin-left: 9%;
-    color: #13171c;
-    font-family: Calibri;
+	top: 20%;
+	position: fixed;
+	margin-left: 9%;
+	color: #13171c;
+	font-family: Calibri;
 }
 /*menu movies(nav) & favorite(nav)*/
 table h1 {
-    text-align: left;
-    font-size: 40px;
+	text-align: left;
+	font-size: 40px;
 }
 /*header image color*/
 table h2 {
-    color: #37ba13;
+	color: #37ba13;
 }
 /*favorite empty statement*/
 table h3 {
-    color: #a5a6a8;
+	color: #a5a6a8;
 }
 /*favorite empty(movie link)*/
 table h3 a {
-    color: #0e55e3;
+	color: #0e55e3;
 }
 /*movie list admin(name)*/
 .name {
-    text-align: left;
+	text-align: left;
 }
 /*movie list admin(box-office)*/
 .box-office {
-    text-align: right;
+	text-align: right;
 }
 /*movie list admin(movie-names)*/
 .avatar {
-    text-align: left;
+	text-align: left;
 }
 /*favorite empty(movie link color)*/
 table a {
-    color: #0f1012;
+	color: #0f1012;
 }
 /*checkbox*/
 .teaser {
-    width: 25px;
-    height: 25px;
+	width: 25px;
+	height: 25px;
 }
 /*has-teaser position*/
 .has {
-    margin-top: 0.3%;
-    position: fixed;
+	margin-top: 0.3%;
+	position: fixed;
 }
 /*footer content*/
 footer p {
-    margin-left: 1%;
-    bottom: 2%;
+	margin-left: 1%;
+	bottom: 2%;
 }
 /*footer alignment*/
 footer {
-    bottom: 0%;
-    background-color: #d3d3db;
-    min-width: 100%;
-    position: fixed;
-    left: 0%;
-    height: 6%;
-    font-family: Calibri;
-    width: 100%;
+	bottom: 0%;
+	background-color: #d3d3db;
+	min-width: 100%;
+	position: fixed;
+	left: 0%;
+	height: 6%;
+	font-family: Calibri;
+	width: 100%;
 }
 /*save button*/
 table .submit {
-    background-color: #303f80;
-    color: #edeef5;
-    border: none;
-    padding: 20px;
-    width: 40%;
-    font-family: Calibri;
-    font-size: 20px;
+	background-color: #303f80;
+	color: #edeef5;
+	border: none;
+	padding: 20px;
+	width: 40%;
+	font-family: Calibri;
+	font-size: 20px;
 }

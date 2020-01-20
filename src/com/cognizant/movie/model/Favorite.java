@@ -4,16 +4,16 @@ import java.util.List;
 
 public class Favorite {
     private List<Movie> favoriteList;
-    private int total;
+    private int noOffFavorite;
 
     public Favorite() {
         // TODO Auto-generated constructor stub
     }
 
-    public Favorite(List<Movie> favoriteList, int total) {
+    public Favorite(List<Movie> favoriteList, int noOffFavorite) {
         super();
         this.favoriteList = favoriteList;
-        this.total = total;
+        this.noOffFavorite = noOffFavorite;
     }
 
     public List<Movie> getFavoriteList() {
@@ -24,17 +24,17 @@ public class Favorite {
         this.favoriteList = favoriteList;
     }
 
-    public int getTotal() {
-        return total;
+    public int getNoOffFavorite() {
+        return noOffFavorite;
     }
 
-    public void setTotal(int total) {
-        this.total = total;
+    public void setNoOffFavorite(int noOffFavorite) {
+        this.noOffFavorite = noOffFavorite;
     }
 
     @Override
     public String toString() {
-        return "Favorite [favoriteList=" + favoriteList + ", total=" + total + "]";
+        return "Favorite [favoriteList=" + favoriteList + ", noOffFavorite=" + noOffFavorite + "]";
     }
 
 }
